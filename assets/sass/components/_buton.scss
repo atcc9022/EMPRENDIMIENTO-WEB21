@@ -1,0 +1,50 @@
+buttom {
+    margin-left: 3px;
+    background-color: #FFAF6D;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 84px;
+    margin-right: 77px;
+    margin-bottom: 56px;
+    padding-top: 7px;
+    font-family: $Poppins;
+    font-size: $x-small;
+    color: $black;
+
+    buttom {
+        background-color: $Tangerine;
+    }
+
+    &:hover {
+        background-color: $blanco;
+        border: 1px solid $black;
+        color: $black;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    buttom {
+        margin-left: 3px;
+        background-color: $Tangerine;
+        padding: 4px;
+        border-radius: 3px;
+        padding-right: 5px;
+        font-family: $Poppins;
+        font-size: $x-small;
+        color: $black;
+
+
+        buttom {
+            background-color: $Tangerine;
+        }
+
+        &:hover {
+            background-color: $blanco;
+            border: 1px solid $black;
+            color: $black;
+        }
+
+    }
+}

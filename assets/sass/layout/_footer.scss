@@ -1,0 +1,134 @@
+footer {
+    background-color: $black !important;
+    width: 100%;
+    height: 49vh;
+    display: grid;
+    justify-content: center;
+    color: $blanco;
+    margin-top: 11px;
+
+
+    .footer__copyright {
+        margin-right: -53px;
+        font-family: $Poppins;
+        font-size: $x-small;
+        margin-top: 44px;
+        margin-left: 125px;
+        width: 38%;
+
+        p {
+            margin-bottom: -22px;
+        }
+    }
+
+
+    .copyright__text {
+        display: list-item;
+        margin-left: 169px;
+        margin-top: -62px;
+        font-family: $Poppins;
+        font-size: $x-small;
+
+        p {
+            margin-top: 83px;
+            font-family: $Poppins;
+            font-size: $x-small;
+        }
+
+        .copyright__text__anuncio {
+            margin-left: -29px;
+            margin-top: 9px;
+            font-family: $Poppins;
+            font-size: $x-small;
+        }
+    }
+
+    .input {
+        margin-top: -6px;
+        margin-left: 64px;
+        display: grid;
+        margin-right: 60px;
+        font-family: $Poppins;
+        font-size: $x-small;
+
+    }
+
+    #uname {
+        height: 23px !important;
+        border-radius: 3px !important;
+        font-family: $Poppins;
+        font-size: $x-small;
+        background-color: $blanco;
+
+        &:hover {
+            background-color: $Tangerine;
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    footer {
+        background-color: $black !important;
+        width: 100%;
+        height: 60px;
+        display: flex !important;
+        justify-content: space-evenly;
+        color: $blanco;
+        margin-top: 45px;
+        font-family: $Poppins;
+
+
+
+        .footer__copyright {
+            margin-top: 20px;
+            margin-left: 39px;
+            font-family: $Poppins;
+            font-size: $x-small;
+        }
+
+
+        .copyright__text {
+            display: inline-flex;
+            margin-left: -244px;
+            margin-top: 13px;
+            font-family: $Poppins;
+            font-size: $x-small;
+
+            p {
+                margin-top: 9px;
+                margin-right: 47px;
+                text-align: start;
+                font-family: $Poppins;
+                font-size: $x-small;
+            }
+        }
+
+        .copyright__text__anuncio {
+            margin-left: -29px;
+            margin-top: 9px;
+            font-family: $Poppins;
+            font-size: $x-small;
+        }
+
+        .input {
+
+            margin-top: 19px;
+            margin-left: -133px;
+            display: block;
+            font-family: $Poppins;
+            font-size: $x-small;
+        }
+
+        #uname {
+            background-color: $blanco;
+
+            &:hover {
+                background-color: $Tangerine;
+            }
+        }
+    }
+
+}

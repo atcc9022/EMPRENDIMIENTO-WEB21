@@ -1,0 +1,422 @@
+.article-section {
+    padding: 27px;
+    border: 1px solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 701px;
+    margin-bottom: 789px;
+
+    .article_img {
+        border: 1px solid;
+        border-style: dotted;
+        padding: 11px;
+        margin-bottom: 12px;
+
+        .article__title {
+            font-family: $Ubuntu;
+            font-size: $large;
+            font-weight: $UbuntuBold;
+        }
+
+        .article__text {
+            margin-top: 10px;
+            text-align: justify;
+            font-size: $x-small;
+            font-family: $Ubuntu;
+        }
+
+        .article__text-pie {
+            h6 {
+                margin-top: 7px;
+                font-size: $medium;
+                font-family: $Ubuntu;
+                font-weight: $UbuntuBold !important;
+            }
+        }
+    }
+}
+
+.article_sass {
+    border: 1px solid;
+    border-style: dotted;
+    padding: 10px;
+    margin-top: -8px;
+
+    .article__title {
+        margin-top: 2px;
+        font-family: $Ubuntu;
+        font-size: $large;
+        font-weight: $UbuntuBold;
+    }
+
+    .article__text {
+        margin-top: 4px;
+        text-align: justify;
+        font-size: $x-small;
+        font-family: $Ubuntu;
+    }
+
+    .article__text-pie {
+        h6 {
+            margin-top: 7px;
+            font-size: $medium;
+            font-family: $Ubuntu;
+            font-weight: $UbuntuBold !important;
+        }
+    }
+}
+
+.article-content--2 {
+    border: 1px solid;
+    margin-top: 26px;
+    margin-left: -27px;
+    margin-right: -28px;
+
+    .article__img2 {
+        margin-left: 35%;
+        margin-top: 20px;
+        border-radius: 100px;
+        border: 1px solid black;
+    }
+
+    .article__pie-image {
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 8px;
+        font-family: $Poppins;
+        font-size: $small;
+    }
+
+    .icon {
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 8px;
+    }
+
+    .article__text_2 {
+        padding: 13px;
+        text-align: justify;
+        font-size: $x-small;
+        font-family: $Ubuntu;
+    }
+
+    hr {
+        border: 12px solid rgb(48, 48, 48) !important;
+        width: 50%;
+        position: relative;
+        width: 93%;
+        margin-left: 14px;
+        margin-top: -2px;
+    }
+
+    .cursos {
+        p {
+            margin-top: -22px !important;
+            color: #FFFFFF;
+            position: absolute;
+            margin-left: 155px;
+            font-size: $small;
+            font-family: $Poppins;
+            font-weight: $PoppinsBold;
+        }
+    }
+
+    .article_list {
+
+        margin: 31px;
+        margin-top: 14px;
+
+        .list__item {
+
+            font-size: $small;
+            font-family: $Poppins;
+
+            li {
+                list-style-type: circle;
+            }
+
+        }
+
+        svg {
+            margin-left: 71px;
+            margin-top: 24px;
+            width: 48%;
+
+            #codigo {
+                animation: 2s trasladar infinite linear alternate;
+            }
+
+            @keyframes trasladar {
+                0% {
+                    transform: translateX(150px)
+                }
+
+                100% {
+                    transform: translateX(0px)
+                }
+            }
+
+            #rueda {
+                animation: 3s rotar infinite linear;
+                transform-origin: 79% 79%;
+            }
+
+            @keyframes rotar {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+
+            #centro {
+                animation: 3s rotar infinite linear;
+                transform-origin: 79% 79%;
+            }
+
+            @keyframes rotar {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .article-section {
+        padding: 27px;
+        border: 1px solid;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 104%;
+        margin-bottom: 789px;
+    }
+
+    .article-content {
+        border: 1px solid black;
+        width: 52%;
+        height: 900px;
+        margin-left: .2em;
+        float: left;
+        display: grid;
+    }
+
+
+    .article_img {
+        border: 1px solid black;
+        border-style: dotted;
+        height: 415px;
+        margin: 9px;
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .article__title {
+        font-family: $Ubuntu;
+        font-size: $large;
+        font-weight: $UbuntuBold;
+        margin-top: 10px;
+    }
+
+    .article__text {
+        font-size: $x-small;
+        width: 100%;
+        font-family: $Ubuntu;
+        text-align: justify;
+        margin-top: 10px !important;
+    }
+
+    h6 {
+        font-size: $medium;
+        font-family: $Ubuntu;
+        font-weight: $UbuntuBold !important;
+        margin-top: 10px !important;
+    }
+
+    i {
+        margin: 3px !important;
+    }
+
+    span {
+        font-family: $Ubuntu;
+        font-size: $x-small;
+        margin-left: 2px;
+    }
+
+    .article_sass {
+        border: 1px solid black;
+        border-style: dotted;
+        height: 450px;
+        margin: 9px;
+        margin-top: -1px;
+        padding: 10px;
+    }
+
+    .article__title {
+        font-family: $Ubuntu;
+        font-size: $large;
+        font-weight: $UbuntuBold;
+        margin-top: 10px !important;
+    }
+
+    .article__text {
+        font-size: $x-small;
+        width: 100%;
+        font-family: $Ubuntu;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+
+    h6 {
+        font-size: $medium;
+        font-family: $Ubuntu;
+        font-weight: $UbuntuBold !important;
+        margin-top: 10px !important;
+    }
+
+    i {
+        margin: 3px !important;
+    }
+
+    span {
+        font-family: $Ubuntu;
+        font-size: $x-small;
+        margin-left: 2px;
+    }
+
+
+
+    .article-content--2 {
+        border: 1px solid black;
+        width: 46%;
+        height: 900px;
+        margin-right: .2em;
+        float: right;
+        margin-top: 0px;
+    }
+
+    .article__img2 {
+        margin-left: 35%;
+        margin-top: 20px;
+        border-radius: 100px;
+        border: 1px solid black;
+    }
+
+    .article__pie-image {
+        text-align: center;
+        margin-left: 20px;
+        font-size: $medium;
+        margin-top: 10px !important;
+    }
+
+    .icon {
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    i {
+        margin: 3px;
+    }
+
+    .article__text_2 {
+        font-size: 12px;
+        font-family: $Ubuntu;
+        text-align: justify;
+        padding: 9px;
+        width: 549px !important;
+    }
+
+
+    hr {
+        border: 12px solid black !important;
+        width: 90%;
+        position: relative;
+        width: 97%;
+        margin-left: 8px;
+        margin-top: 11px;
+    }
+
+    .cursos {
+        p {
+            margin-top: -22px !important;
+            color: $blanco;
+            position: absolute;
+            margin-left: 253px !important;
+        }
+    }
+
+    .article_list {
+        .list__item {
+
+            margin-top: 20px;
+            margin-left: 20px;
+            font-size: $small;
+            font-family: $Poppins;
+
+            li {
+                list-style-type: circle;
+            }
+        }
+
+        svg {
+            margin-left: 210px;
+
+            #codigo {
+                animation: 2s trasladar infinite linear alternate;
+            }
+
+            @keyframes trasladar {
+                0% {
+                    transform: translateX(150px)
+                }
+
+                100% {
+                    transform: translateX(0px)
+                }
+            }
+
+            #rueda {
+                animation: 3s rotar infinite linear;
+                transform-origin: 79% 79%;
+            }
+
+            @keyframes rotar {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+
+            #centro {
+                animation: 3s rotar infinite linear;
+                transform-origin: 79% 79%;
+            }
+
+            @keyframes rotar {
+                0% {
+                    transform: rotate(0deg)
+                }
+
+                100% {
+                    transform: rotate(360deg)
+                }
+            }
+
+        }
+
+    }
+}
